@@ -1,8 +1,8 @@
 import java.util.*;
 
-public class MenuDrivenCalculator{
+public class MenuDrivenCalculator {
     public static void main(String[] args) {
-        Scanner sc = new Scanner( System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Menu Driven Calculator");
         System.out.println("1. Addition");
         System.out.println("2. Subtraction");
@@ -45,3 +45,32 @@ public class MenuDrivenCalculator{
         sc.close();
     }
 }
+
+
+// PS D:\Internship\Basicjava> javac MenuDrivenCalculator.java
+// PS D:\Internship\Basicjava> java MenuDrivenCalculator      
+// Menu Driven Calculator
+// 1. Addition
+// 2. Subtraction
+// 3. Multiplication
+// 4. Division
+// 5. Modulus
+// 6. Exit
+// Enter your choice: 1
+// Enter first number: 20000
+// Enter second number: 500
+// Result =20500.0
+// PS D:\Internship\Basicjava> 
+// PS D:\Internship\Basicjava> javac MenuDrivenCalculator.java
+// PS D:\Internship\Basicjava> java MenuDrivenCalculator      
+// Menu Driven Calculator
+// 1. Addition
+// 2. Subtraction
+// 3. Multiplication
+// 4. Division
+// 5. Modulus
+// 6. Exit
+// Enter your choice: 2
+// Enter first number: 20000
+// Enter second number: 700 
+// Result =19300.0
